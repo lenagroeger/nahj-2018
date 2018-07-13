@@ -1,0 +1,373 @@
+* {
+  -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+  -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+  box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+#introduction > div {
+  margin-bottom: 100px
+}
+
+#introduction {
+  width: 100%;
+  max-width: 800px;
+  margin: auto;
+  padding-top: 50px
+}
+
+body {
+  margin:0px 0px 100px;
+  display: inline-block;
+  width: 100%;
+  font-family: 'Graphik', sans-serif;
+}
+
+ol {
+  margin-top: 0px;
+}
+
+.label {
+  font-size: 12px;
+  font-style: italic;
+  font-weight: 800;
+  margin-bottom: 40px;
+  display: inline-block;
+}
+
+
+#exercise .list p.subhed {
+  font-weight: bold;
+  margin: 20px 0px 0px;
+}
+
+
+#exercise p {
+  margin: 20px 0px 5px;
+}
+
+iframe {
+  margin: 20px auto
+}
+
+code {
+    font-family: monospace;
+
+}
+
+#exercise .list p {
+  margin: 10px 0px
+}
+
+  #exercise img {
+    width: auto;
+    max-width: 100%;
+    padding: 10px 50px 20px 0px;
+    box-shadow: 2px 3px 10px rgba(0,0,0,.2);
+    padding:10px;
+    margin:10px 0px;
+  }
+
+  #exercise {
+    width: 100%;
+    max-width: 860px;
+    margin: 20px auto
+  }
+
+  #container {
+    line-height: 1.6;
+    text-align: left;
+    line-height: 1.5;
+    padding:0px 0px 50px;
+    margin: 0px;
+    display: inline-block;
+    width: 100%;
+  }
+
+#container.introduction {
+  background-color: rgb(8, 24, 37)
+}
+
+  #container p code {
+    margin:5px 0px;
+    padding: 4px 5px;
+    border: 1px solid #ebebeb;
+    background-color: #f7f7f7;
+    border-radius: 2px;
+    font-family: "Menlo", Courier, monospace;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .lecture span {
+    float: left;
+    margin-right: 10px;
+    display: block;
+  }
+
+
+  .lecture {
+    clear: both;
+    display: inline-block;
+    margin: 30px 0px 10px;
+  }
+
+ .section > ol, .section > ul {
+    float: left;
+  }
+
+#container pre code {
+  font-family: Monaco, Courier, monospace;
+  font-size: 12px;
+}
+
+  #container pre {
+    line-height: 16px;
+    padding: 0.5em 1em;
+    overflow: auto;
+    border-left: 1px solid #cecece;
+    margin-left: 0;
+    background: #f7f7f7;
+}
+
+
+
+  #content a:hover, #exercise a:hover, a:hover {
+    text-decoration: underline;
+  }
+
+  a {
+    color: #4A93B4;
+    text-decoration: none;
+  }
+
+  .nav a:hover {
+      color: #444;
+  }
+
+  p, li {
+    color: #444;
+    margin:0px;
+    font-size: 15px;
+    clear: both;
+  }
+
+  h1 {
+    font-family: 'Tiempos Text', serif;
+    font-size: 45px;
+    margin: 60px 0px 0px 0px;
+    color:#000;
+  }
+
+
+  h2 {
+    font-family: 'Tiempos Text', serif;
+    font-size: 40px;
+    clear: both;
+    margin: 100px 0px 0px;
+  }
+
+  .intro h2 {
+    margin-top: 10px
+  }
+
+  h4 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 0px 10px;
+    padding: 10px 0px;
+    margin: 20px 0px 0px 0px;
+    clear: both;
+  }
+
+  h5 {
+    font-family: 'Tiempos Text', serif;
+    font-size: 1.2em;
+    margin:0px;
+  }
+
+  h3 {
+    border-top: 2px solid #444;
+    font-family: 'Tiempos Text', serif;
+    padding: 10px 0px;
+    font-weight: bold;
+    width: 100%;
+    font-size: 1.2em;
+    margin-top: 5em;
+  }
+
+  p.talkers {
+    text-transform: uppercase;
+    font-size: 11px;
+  }
+
+  .section div span {
+    font-size: 11px;
+    margin-left: 5px;
+    color: #999;
+  }
+  .nav {
+    float: left;
+    font-size: 11px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    width: 130px;
+    text-align: right;
+    padding: 60px 10px;
+    line-height: 2em;
+    position: fixed;
+  }
+
+  #content > div {
+    width: 650px;
+    padding:1px 0px;
+    clear: both;
+    margin-bottom: 50px;
+    display: inline-block;
+  }
+
+  #content > div img, #content > div .gist {
+    max-width: 100%;
+    box-shadow: 1px 1px 10px #cecece;
+  }
+
+  #content > div a img:hover {
+    box-shadow: 1px 1px 10px #666;
+  }
+
+  #content > div > span, #content .reading {
+    float: left;
+    margin: 0px 0px 20px;
+  }
+
+
+  #content .gist span, #content .gist div {
+    font-size: 11px;
+    line-height: 1em
+  }
+
+  #content {
+    float:right;
+    margin-bottom: 50px;
+  }
+
+  .nav li {
+    list-style-type: none;
+    font-size: 11px
+  }
+
+  .nav ul {
+    margin: 0px;
+    padding-left: 0px
+  }
+
+  .active {
+    font-weight: bold
+  }
+
+  #content > div > span.small {
+    float: left;
+    width: 43%;
+    margin: 20px 30px 20px 0px;
+    font-size: 13px;
+    color:#444;
+    line-height: 1.6em
+  }
+
+
+  #content > div > span.small.tiny {
+  margin-top:10px;
+  font-size:11px;
+  font-weight: normal;
+  }
+
+
+
+   #content > div > span.small.big {
+    width: 89%;
+  }
+
+  li {
+    font-size: 15px;
+  }
+
+  td, th {
+    display: table-cell;
+    vertical-align: inherit;
+  }
+
+  table td {
+    padding: 4px 8px;
+    text-align: left;
+    vertical-align: top;
+    border-top: 1px solid #e2e2e2;
+    font-size: .9em;
+    color:#444;
+  }
+
+  table th {
+    padding: 8px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin:20px auto;
+  }
+
+  .source {
+    font-style: italic;
+    color:#666;
+    font-size: .8em;
+    font-weight: bold;
+  }
+
+  @media (max-width:480px) {
+
+    #container {
+      width: 100%;
+      padding:10px;
+    }
+
+    #content {
+      margin: 0px auto;
+      max-width: 300px;
+      float: none;
+    }
+
+    #introduction {
+      padding-top: 0px
+    }
+
+    .nav {
+      width: 300px;
+      padding: 20px;
+      background: white;
+      top: 0px;
+      margin: 0px auto;
+      position: relative;
+      float: none;
+    }
+
+    .nav li {
+      float: left;
+      margin-right: 20px;
+    }
+    .nav li:last-child {
+      margin-right: 0px;
+    }
+
+    #content > div {
+      width: 100%
+    }
+    h1 {
+      font-size: 30px
+    }
+
+    .nav li a span {
+  display: none
+    }
+
+
+  }

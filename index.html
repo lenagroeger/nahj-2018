@@ -1,0 +1,164 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+
+    <title>Datawrapper Tutorial</title>
+  <link rel="stylesheet" href="css/main.css" type="text/css">
+  <link rel="stylesheet" href="css/fonts.css" type="text/css">
+
+  <body>
+
+<div id="container" class="exercise">
+
+  <div id="exercise">
+    
+    <div id="intro">
+      <h1>Data Visualization 2</h1>
+      <h5>How to Use Datawrapper to Make Charts & Maps!</h5>
+      <h4>Lena Groeger, ProPublica</h4>
+      <p>We're going to be using a slightly tweaked version of Datawrapper's own fabulous <a href="https://academy.datawrapper.de/category/74-bar-charts">tutorial series</a> to make a <a href="#barchart">bar chart</a>, <a href="#linechart">line chart</a>, and <a href="#map">map</a>.</p>
+    </div>
+
+    <div id="barchart">
+      <h2>Let's Make a Bar Chart</h2>
+      <p>Here's a bar chart of the states with the highest immigrant population (as of 2016).  We're going to make it from scratch.</p>
+       <iframe id="datawrapper-chart-SKAno" src="//datawrapper.dwcdn.net/SKAno/2/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="367"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["SKAno"]={},window.datawrapper["SKAno"].embedDeltas={"100":468,"200":409,"300":384,"400":367,"500":367,"700":367,"800":367,"900":367,"1000":367},window.datawrapper["SKAno"].iframe=document.getElementById("datawrapper-chart-SKAno"),window.datawrapper["SKAno"].iframe.style.height=window.datawrapper["SKAno"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["SKAno"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("SKAno"==b)window.datawrapper["SKAno"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+
+      <table> 
+        <thead>
+          <tr>
+            <th>State</th>
+            <th>Immigrant Population</th>
+          </tr>
+        </thead>
+       <tbody> 
+        <tr><td>California</td><td>10677700</td></tr>
+        <tr><td>Texas</td><td>4729900</td></tr>
+        <tr><td>New York</td><td>4536100</td></tr>
+        <tr><td>Florida</td><td>4236500</td></tr>
+        <tr><td>New Jersey</td><td>2016100</td></tr>
+        <tr><td>Illinois</td><td>1783500</td></tr>
+        <tr><td>Massachusetts</td><td>1123900</td></tr>
+       </tbody> 
+      </table>
+
+      <p class="source">Source: <a href="https://www.migrationpolicy.org/programs/data-hub/charts/immigrant-population-state-1990-present?width=1000&height=850&iframe=true">Migration Policy Institute</a></p>
+
+      <h3>Step 1: Upload Data</h3>
+
+      <img src="img/barchart_1.png">
+
+      <p>There are lots of ways to import data into Datawrapper, but we'll start with the easiest one – copy and paste!</p>
+      <img src="img/barchart_1a.png">
+
+      <p>Your dataset should be formatted like this:
+
+      <ul> 
+       <li><strong>Descriptive&nbsp;labels in the first column as categories</strong>. <br> This will determine the label in front of each bar. </li> 
+       <li><strong>Corresponding values in the second column as categorical dimensions</strong>. <br> This will determine the length of each corresponding bar. </li>
+      </ul>
+
+
+      </p>
+
+      <p>Note that the big numbers for immigration are intentionally without commas or extra formatting. <strong>Unformatted numbers are always best!</strong> </p>
+
+      <img src="img/barchart_2.png">
+      <p>Copy the dataset into the upload field in Datawrapper. Then click "Proceed" and continue.</p>
+
+      <h3>Step 2: Check & Describe</h3>
+
+      <img src="img/barchart_3.png">
+      <p>Make sure everything looks good here. Note that because I pasted in the header rows "Year" and "Number of Immigrants", I check the "First row as label" button. That will make sure that it doesn't think those fields are actual data!</p>
+
+      <p>If everything looks fine, then click "Proceed."</p>
+
+      <h3>Step 3: Visualize</h3>
+       <img src="img/barchart_4.png">
+      <p>Datawrapper will try to guess what format your data should be in. Here, it's guessing a line chart (Cue discussion of line charts vs bar charts!) But I actually want a bar chart, so I'm going to select bar chart from the menu of chart types.</p>
+      <img src="img/barchart_5.png">
+
+      <p>Better! Now we have lots of options for how to style and annotate this chart, in the refine, annotate, and design tabs.</p>
+      <img src="img/barchart_6.png">
+
+
+      <p>There are lots of things you can do in the Refine tab.</p>
+      <p>Sorting: Depending on the angle of your story, you may want to sort the bars.</p>
+      <p>Labeling: You can align the numbers left or right, display grid lines, change the number formatting, etc. </p>
+      <p>Appearance: You can change the color of the bars, make the bars thicker, add a separating line, or a background to the bars. </p>
+
+      <p>In this case, I'm going to give the bars a background grey and make them thicker and dark red, and also separate rows with dotted line. </p>
+      <img src="img/barchart_7.png">
+
+
+      <p>Next we go to the Annotate tab.</p>
+      <p>Let's give the chart a title, description, and add the source of the data. If you have a URL to the data source, that's even better.</p>
+      <img src="img/barchart_8.png">
+
+      <p>We're going to quickly pass by the Design tab, and go straight to Publish!</p>
+
+      <h3>Step 4: Publish & Embed</h3>
+      <p>The most important step of all: publishing our chart!</p>
+      <img src="img/barchart_9.png">
+
+      <p>Once you click Publish, you have the option of sharing, embedding, exporting or duplicating your chart.</p>
+      <img src="img/barchart_10.png">
+
+      <p>And you're done! </p>
+
+      <p>Bonus question to consider: California, Texas, New York and Florida are pretty populous states. What other metric of immigration population could we use to represent the "top" immigrant states? <a href="https://www.migrationpolicy.org/programs/data-hub/charts/immigrant-population-state-1990-present?width=1000&height=850&iframe=true">Hint</a>. </p>
+
+
+    </div>
+
+
+    <div id="linechart">
+      <h2>2: Let's Make a Line Chart</h2>
+      <iframe id="datawrapper-chart-DqAc2" src="//datawrapper.dwcdn.net/DqAc2/1/" scrolling="no" frameborder="0" allowtransparency="true" style="width: 0; min-width: 100% !important;" height="600"></iframe><script type="text/javascript">if("undefined"==typeof window.datawrapper)window.datawrapper={};window.datawrapper["DqAc2"]={},window.datawrapper["DqAc2"].embedDeltas={"100":1143,"200":783,"300":676,"400":617,"500":600,"700":558,"800":558,"900":558,"1000":541},window.datawrapper["DqAc2"].iframe=document.getElementById("datawrapper-chart-DqAc2"),window.datawrapper["DqAc2"].iframe.style.height=window.datawrapper["DqAc2"].embedDeltas[Math.min(1e3,Math.max(100*Math.floor(window.datawrapper["DqAc2"].iframe.offsetWidth/100),100))]+"px",window.addEventListener("message",function(a){if("undefined"!=typeof a.data["datawrapper-height"])for(var b in a.data["datawrapper-height"])if("DqAc2"==b)window.datawrapper["DqAc2"].iframe.style.height=a.data["datawrapper-height"][b]+"px"});</script>
+      
+      <p>We're going to recreate a line chart of backlogged immigration cases. The <a href="https://datawrapper.dwcdn.net/KIK4y/1/">original Datawrapper chart was made by Carl V. Lewis</a>, and data is from Syracuse University's <a href="http://trac.syr.edu/phptools/immigration/court_backlog/">TRAC reports</a>. I've pulled the data from the TRAC website and stuck it in <a target="_blank" href="https://docs.google.com/spreadsheets/d/1KZSBBzPsNDOSW5Rpt0JIWm-ZlmvLcNuDHVh5qufNcVc/edit#gid=0">this spreadsheet<a/>.</p>
+      <p>Source: <a href="http://trac.syr.edu/phptools/immigration/court_backlog/">TRAC</a></p>
+
+
+      <h3>Step 1: Upload Data</h3>
+      <p>We'll follow the same steps as before, and start with uploading our data. This time rather than copying and pasting, we're going to link directly to a Google Spreadsheet. <p>
+      <img src="img/linechart_1.png">
+
+      <p>Paste in this URL: </p>
+      <p> <code>https://docs.google.com/spreadsheets/d/1KZSBBzPsNDOSW5Rpt0JIWm-ZlmvLcNuDHVh5qufNcVc/edit#gid=0</code> </p>
+      <p>If all goes well, it should give you some green checkmarks to indicate that there are no issues with the spreadsheet. Remember: the spreadsheet has to by public for this to work. </p>
+      <img src="img/linechart_2.png">
+      <p></p>
+
+      Or https://www.migrationpolicy.org/sites/default/files/datahub/MPI-Data-Hub_USInflowLPRsbyCOB_2016.xlsx
+
+      <p></p>
+    </div>
+
+
+
+    <div id="map">
+      <h2>3: Let's Make a Map</h2>
+      <p></p>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+  </body>
+</html>
