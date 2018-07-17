@@ -14,17 +14,72 @@ body {
 }
 
 
-#exercise p {
+h1 {
+  font-family: 'Tiempos Text', serif;
+  font-size: 45px;
+  margin: 60px 0px 0px 0px;
+  color:#000;
+}
+
+
+h2 {
+  font-family: 'Tiempos Text', serif;
+  font-size: 40px;
+  clear: both;
+  margin: 100px 0px 0px;
+}
+
+h3 {
+  border-top: 2px solid #444;
+  font-family: 'Tiempos Text', serif;
+  padding: 10px 0px;
+  font-weight: bold;
+  width: 100%;
+  font-size: 1.2em;
+  margin-top: 5em;
+}
+
+
+h4 {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0px 0px 10px;
+  padding: 10px 0px;
+  margin: 20px 0px 0px 0px;
+  clear: both;
+}
+
+h5 {
+  font-family: 'Tiempos Text', serif;
+  font-size: 1.2em;
+  margin:0px;
+}
+
+
+a {
+  color: #4A93B4;
+  text-decoration: none;
+}
+
+
+a:hover{
+  text-decoration: underline;
+}
+
+p, li {
+  margin:0px;
+  font-size: 15px;
+  clear: both;
+}
+
+p {
   margin: 20px 0px 5px;
 }
 
 iframe {
   margin: 20px auto;
   width: 100% !important;
-}
-
-code {
-  font-family: monospace;
 }
 
 #exercise {
@@ -79,192 +134,100 @@ code {
   color: #666;
 }
 
-  .lecture span {
-    float: left;
-    margin-right: 10px;
-    display: block;
-  }
+li {
+  font-size: 15px;
+  margin-bottom: 20px;
+  list-style-type: none;
+  display: inline-block;
+}
 
-
-  .lecture {
-    clear: both;
-    display: inline-block;
-    margin: 30px 0px 10px;
-  }
-
- .section > ol, .section > ul {
-    float: left;
-  }
-
-#container pre code {
-  font-family: Monaco, Courier, monospace;
+li span {
   font-size: 12px;
+  font-weight: bold;
+  letter-spacing: .02em;
+  width: 100%;
+  display: inline-block;
 }
 
-  #container pre {
-    line-height: 16px;
-    padding: 0.5em 1em;
-    overflow: auto;
-    border-left: 1px solid #cecece;
-    margin-left: 0;
-    background: #f7f7f7;
-}
-
-
-
-  a:hover{
-    text-decoration: underline;
-  }
-
-  a {
-    color: #4A93B4;
-    text-decoration: none;
-  }
-
-  .nav a:hover {
-      color: #444;
-  }
-
-  p, li {
-    margin:0px;
-    font-size: 15px;
-    clear: both;
-  }
-
-  li {
-    font-size: 15px;
-    margin-bottom: 20px;
-    list-style-type: none;
-    display: inline-block;
-  }
-
-  li span {
-    font-size: 12px;
-    font-weight: bold;
-    letter-spacing: .02em;
-    width: 100%;
-    display: inline-block;
-  }
-
-  li span a {
-    background: #65accc;
-    color: #fff;
-    padding: 4px 7px;
-    border-radius: 3px;
-     transition: all 0.10s ease-in-out;
+li span a {
+  background: #65accc;
+  color: #fff;
+  padding: 4px 7px;
+  border-radius: 3px;
+  transition: all 0.10s ease-in-out;
  -webkit-transition: all 0.10s ease-in-out;
  -moz-transition: all 0.10s ease-in-out;
  -o-transition: all 0.10s ease-in-out;
-  }
+}
 
-  li span a:hover {
-    background: #4A93B4;
-    text-decoration: none;
-  }
+li span a:hover {
+  background: #4A93B4;
+  text-decoration: none;
+}
 
-  li span a:active {
-    position: relative;
-    top:1px;
-  }
-
-
-  li div {
-    float: left;
-  }
-
-  li div:first-child {
-    width: 70%;
-    margin-right: 10%
-  }
-
-  li div:last-child {
-    width: 20%
-  }
-
-  h1 {
-    font-family: 'Tiempos Text', serif;
-    font-size: 45px;
-    margin: 60px 0px 0px 0px;
-    color:#000;
-  }
+li span a:active {
+  position: relative;
+  top:1px;
+}
 
 
-  h2 {
-    font-family: 'Tiempos Text', serif;
-    font-size: 40px;
-    clear: both;
-    margin: 100px 0px 0px;
-  }
+li div {
+  float: left;
+}
 
-  .intro h2 {
-    margin-top: 10px
-  }
+li div:first-child {
+  width: 70%;
+  margin-right: 10%
+}
 
-  h4 {
-    font-size: 11px;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin: 0px 0px 10px;
-    padding: 10px 0px;
-    margin: 20px 0px 0px 0px;
-    clear: both;
-  }
+li div:last-child {
+  width: 20%
+}
 
-  h5 {
-    font-family: 'Tiempos Text', serif;
-    font-size: 1.2em;
-    margin:0px;
-  }
-
-  h3 {
-    border-top: 2px solid #444;
-    font-family: 'Tiempos Text', serif;
-    padding: 10px 0px;
-    font-weight: bold;
-    width: 100%;
-    font-size: 1.2em;
-    margin-top: 5em;
-  }
+.intro h2 {
+  margin-top: 10px
+}
 
 
-  .section div span {
-    font-size: 11px;
-    margin-left: 5px;
-    color: #999;
-  }
+
+.section div span {
+  font-size: 11px;
+  margin-left: 5px;
+  color: #999;
+}
 
 
-  td, th {
-    display: table-cell;
-    vertical-align: inherit;
-  }
+td, th {
+  display: table-cell;
+  vertical-align: inherit;
+}
 
-  table td {
-    padding: 4px 8px;
-    text-align: left;
-    vertical-align: top;
-    border-top: 1px solid #e2e2e2;
-    font-size: .9em;
-    color:#444;
-  }
+table td {
+  padding: 4px 8px;
+  text-align: left;
+  vertical-align: top;
+  border-top: 1px solid #e2e2e2;
+  font-size: .9em;
+  color:#444;
+}
 
-  table th {
-    padding: 8px;
-  }
+table th {
+  padding: 8px;
+}
 
-  table {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
-    margin:20px auto;
-  }
+table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+  margin:20px auto;
+}
 
-  .source {
-    font-style: italic;
-    color:#666;
-    font-size: .8em;
-    font-weight: bold;
-  }
+.source {
+  font-style: italic;
+  color:#666;
+  font-size: .8em;
+  font-weight: bold;
+}
 
   @media (max-width:480px) {
 
