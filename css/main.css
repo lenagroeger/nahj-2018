@@ -69,12 +69,16 @@ a:hover{
 
 p, li {
   margin:0px;
-  font-size: 15px;
+  font-size: 16px;
   clear: both;
 }
 
 p {
   margin: 20px 0px 5px;
+}
+
+ul {
+  margin-bottom: 0px
 }
 
 iframe {
@@ -236,8 +240,13 @@ table {
       padding:10px;
     }
 
+    p {
+      margin-top: 10px
+    }
+
     h1, h2 {
-      font-size: 30px
+      font-size: 30px;
+      margin-top: 20px
     }
 
     li div:first-child {
@@ -246,6 +255,10 @@ table {
     li div:last-child {
       width: 100%;
       margin-top: 10px;
+    }
+
+    ul {
+      padding: 0px
     }
 
   }
